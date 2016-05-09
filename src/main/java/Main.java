@@ -17,7 +17,7 @@ public class Main {
 
   public static void main(String[] args) {
 
-    port(Integer.valueOf(System.getenv("PORT")));
+    /*port(Integer.valueOf(System.getenv("PORT")));
     staticFileLocation("/public");
 
     get("/hello", (req, res) -> "Hello World");
@@ -54,7 +54,7 @@ public class Main {
         if (connection != null) try{connection.close();} catch(SQLException e){}
       }
     }, new FreeMarkerEngine());
-
+*/
   }
 
 }
